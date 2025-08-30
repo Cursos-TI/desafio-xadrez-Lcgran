@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
+
+    printf("Jogo de xadrez\n");
+    printf("")
     // --- Simulação do Movimento da Torre ---
     // A Torre se move em linha reta. Vamos simular um movimento de 5 casas para a direita usando um loop 'for'.
     printf("Simulando o movimento da Torre (5 casas para a direita):\n");
