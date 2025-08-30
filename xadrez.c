@@ -1,9 +1,16 @@
-    printf("Direita\n");
+#include <stdio.h>
+
+int main() {
+    // --- Simulação do Movimento da Torre ---
+    // A Torre se move em linha reta. Vamos simular um movimento de 5 casas para a direita usando um loop 'for'.
+    printf("Simulando o movimento da Torre (5 casas para a direita):\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Direita\n");
     }
     printf("\n");
 
     // --- Simulação do Movimento do Bispo ---
-    // O Bispo se move na diagonal. Vamos simular um movimento de 5 casas na diagonal (cima e direita) usando um loop 'while'.
+    // O Bispo se move na diagonal. Vamos simular um movimento de 5 casas na diagonal (para cima e a direita) usando um loop 'while'.
     int casas_bispo = 5;
     printf("Simulando o movimento do Bispo (5 casas na diagonal para cima e a direita):\n");
     while (casas_bispo > 0) {
